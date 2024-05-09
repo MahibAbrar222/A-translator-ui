@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="." class="brand">My Translator</a>
+    </nav>
+
+    <div class="translator-container">
+        <!-- From text -->
+        <div class="translator-box">
+            <div class="languages">
+                <label for="english_text" class="lang">
+                    <span>English</span>
+                    <input type="radio" name="lang_text" id="english_text" class="lang_text" checked="checked">
+                    <hr>
+                </label>
+                <label for="bangla_text" class="lang">
+                    <span>Bangla</span>
+                    <input type="radio" name="lang_text" id="bangla_text" class="lang_text">
+                    <hr>
+                </label>
+            </div>
+            <textarea name="" id="from_text" placeholder="Enter text"></textarea>
+            <button id="send">&rarrtl;</button>
+        </div>
+        <!-- Translate Text -->
+        <div class="translator-box">
+            <div class="languages">
+                <label for="english_translation" class="lang">
+                    <span>English</span>
+                    <input type="radio" name="lang_translation" id="english_translation" class="lang_text">
+                    <hr>
+                </label>
+                <label for="bangla_translation" class="lang">
+                    <span>Bangla</span>
+                    <input type="radio" name="lang_translation" id="bangla_translation" class="lang_text" checked="checked">
+                    <hr>
+                </label>
+            </div>
+            <textarea name="" readonly id="translate" placeholder="Translated Text"></textarea>
+        </div>
+    </div>
+</body>
+</html>
