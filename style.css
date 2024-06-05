@@ -39,6 +39,7 @@ body{
     flex-direction: column;
     min-width: 300px;
     transform: rotateX(5deg);
+    flex-grow: 100;
 }
 .translator-container .translator-box:hover{
     transform: scale(105%);
